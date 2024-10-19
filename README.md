@@ -40,7 +40,7 @@ This interface is built upon a problem statement to implement **deadlock avoidan
 
 ## Live Demo
 
-You can access the live demo of the Traffic Signal Management System [https://smart-traffic-system.netlify.app/](#).
+You can access the live demo of the Traffic Signal Management System [HERE](https://smart-traffic-system.netlify.app/).
 
 ## Future Improvements
 
