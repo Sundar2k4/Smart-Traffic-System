@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Traffic Light System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Smart Traffic Light System</h1>
+        <div class="intersection">
+            <div class="direction" id="north">
+                <div class="traffic-light">
+                    <div class="light red"></div>
+                    <div class="light yellow"></div>
+                    <div class="light green"></div>
+                </div>
+                <div class="info">
+                    <div class="name">North</div>
+                    <div class="count">0</div>
+                </div>
+            </div>
+            <div class="direction" id="south">
+                <div class="traffic-light">
+                    <div class="light red"></div>
+                    <div class="light yellow"></div>
+                    <div class="light green"></div>
+                </div>
+                <div class="info">
+                    <div class="name">South</div>
+                    <div class="count">0</div>
+                </div>
+            </div>
+            <div class="direction" id="east">
+                <div class="traffic-light">
+                    <div class="light red"></div>
+                    <div class="light yellow"></div>
+                    <div class="light green"></div>
+                </div>
+                <div class="info">
+                    <div class="name">East</div>
+                    <div class="count">0</div>
+                </div>
+            </div>
+            <div class="direction" id="west">
+                <div class="traffic-light">
+                    <div class="light red"></div>
+                    <div class="light yellow"></div>
+                    <div class="light green"></div>
+                </div>
+                <div class="info">
+                    <div class="name">West</div>
+                    <div class="count">0</div>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="addTraffic">Add Random Traffic</button>
+            <button id="processTraffic">Process Traffic</button>
+        </div>
+        <div id="log"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
