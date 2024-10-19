@@ -2,6 +2,10 @@
 
 This project handles the traffic signal system by dynamically adjusting the signal timings based on the traffic amount in each direction. It uses a **priority queue** structure to manage the priority of each direction, ensuring that the busiest routes get the green light first. The design is aimed at improving traffic flow efficiency and avoiding congestion.
 
+## Live Demo
+
+You can access the live demo of the Traffic Signal Management System [HERE](https://smart-traffic-system.netlify.app/).
+
 ## Problem Statement
 
 This interface is built upon a problem statement to implement **deadlock avoidance**. I perceived the traffic situation to be a pseudo-deadlock scenario, where multiple directions compete for green light access without any proper synchronization. Hence, this system uses deadlock prevention strategies by giving priority to high-traffic routes while ensuring fairness to avoid situations resembling a deadlock.
@@ -37,10 +41,6 @@ This interface is built upon a problem statement to implement **deadlock avoidan
 1. Clone the repository or download the project files.
 2. Open the `index.html` file in your preferred browser.
 3. The system will automatically simulate traffic and adjust the signal timings based on the current traffic in each direction.
-
-## Live Demo
-
-You can access the live demo of the Traffic Signal Management System [HERE](https://smart-traffic-system.netlify.app/).
 
 ## Future Improvements
 
